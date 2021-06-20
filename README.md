@@ -9,6 +9,8 @@ This repo contains the final code for the GraphQL course here https://www.youtub
 - GraphQL is a query language that allows the front-end to decide what type of value they need to get and reduce its dependence with the server.
 - GraphQL also saves the number of request you may need to send to the server
     <br />
+    <br />
+
     **For example**
     Let's say from a list of book, you want to get one book, then the author of the book and finally all books that were written by that author.
     - The RESTful approach
