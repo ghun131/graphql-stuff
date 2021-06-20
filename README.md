@@ -11,14 +11,14 @@ This repo contains the final code for the GraphQL course here https://www.youtub
     **For example**
     Let's say from a list of book, you want to get one book, then the author of the book and finally all books that were written by that author.
     - The RESTful approach
-    *First get the book api*
-    `/books/:id` => title, genre, reviews, authorId
+        - *First get the book api*
+        - `/books/:id` => title, genre, reviews, authorId
 
-    *Then get the author of that book*
-    `/author/:id` => name, age, biography, bookIds
+        - *Then get the author of that book*
+        - `/author/:id` => name, age, biography, bookIds
 
-    *Finally use another endpoint for the book list of that author*
-    `/author/books` => books
+        - *Finally use another endpoint for the book list of that author*
+        - `/author/books` => books
 
     Or we can hit the first end with different ids but it might be a lot of api calls to display all books of that one particular author.
 
